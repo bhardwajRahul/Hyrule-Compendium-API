@@ -153,8 +153,6 @@ Results in: \
 
 ?> **NOTE**: Master mode entry images use the format: `/master_mode/entry/<entry>/image`.
 
-!> **WARNING**: *Tears of the Kingdom* images are not yet supported. It is in [the roadmap](https://github.com/gadhagod/Hyrule-Compendium-API/issues/30#issue-1244733529).
-
 ---------------
 
 ## Entry schemas
