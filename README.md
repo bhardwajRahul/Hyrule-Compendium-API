@@ -1,4 +1,4 @@
-### WARNING: v1 and v2 are being discontinued on September 29, 2024. Please see the [migration guide](https://github.com/gadhagod/Hyrule-Compendium-API/issues/46) to update your applications.
+### NOTICE: The API is now served at **[https://api.hyrule-compendium.com](https://api.hyrule-compendium.com)**. The old `botw-compendium.herokuapp.com` hostname is no longer in use. Please update your applications to the new domain. 
 
 ***
 
@@ -20,7 +20,7 @@ The Hyrule compendium is an encyclopedia of all the in-game interactive items in
 You can see a specific item, all items in a category, or all data in our database.
 Here is an example request and response, retrieving data on the white-maned lynel:
 
-    $ curl https://botw-compendium.herokuapp.com/api/v3/entry/white-maned_lynel
+    $ curl https://api.hyrule-compendium.com/v3/compendium/entry/white-maned_lynel
     {
         "data": {
             "name": "white-maned lynel",
@@ -36,7 +36,7 @@ Here is an example request and response, retrieving data on the white-maned lyne
                 "lynel hoof",
                 "lynel guts"
             ],
-            "image": "https://botw-compendium.herokuapp.com/api/v3/entry/white-maned_lynel/image"
+            "image": "https://api.hyrule-compendium.com/v3/compendium/entry/white-maned_lynel/image"
         }
     }
 
